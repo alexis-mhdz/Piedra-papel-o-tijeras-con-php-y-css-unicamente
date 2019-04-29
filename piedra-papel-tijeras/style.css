@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+.game {
+    text-align: center;
+}
+
+.game h1 {
+    text-transform: uppercase;
+}
+
+.game .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game .flex .player form input[type="radio"]{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.game .flex .player form input[type="submit"]{
+    margin: 14px 0;
+    cursor: pointer;
+}
+
+.game .flex h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
